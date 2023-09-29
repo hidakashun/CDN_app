@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+/*スライドショー*/
+.slider {
+    visibility: hidden;
+}
+
+.slider.slick-initialized {
+    visibility: visible;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
