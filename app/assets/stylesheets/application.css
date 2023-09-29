@@ -13,6 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+/*リセットCSS（ブラウザ独自のCSSを削除（リセット）するためのCSSです。））*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*画像の幅を変える*/
 #key_visual img {
   width: 100%;
