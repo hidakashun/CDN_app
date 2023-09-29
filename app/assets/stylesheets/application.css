@@ -13,6 +13,11 @@
  *= require_tree .
  *= require_self
  */
+/*画像の幅を変える*/
+#key_visual img {
+  width: 100%;
+}
+
 /*スライドショー*/
 .slider {
     visibility: hidden;
